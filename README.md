@@ -139,12 +139,6 @@ export function initResultPage() {
 }
 ```
 
-Set `<body data-page="result">` and reuse the shared header/footer plus the
-`.section`, `.section__head`, `.card` and `.tip-box` classes from
-`style.css` — no new CSS is needed for a basic result page.
-
----
-
 ## 6. Notes
 
 - **Mobile first.** Tested layout range: 360 px → desktop. Single stylesheet,
@@ -157,8 +151,7 @@ Set `<body data-page="result">` and reuse the shared header/footer plus the
 - **Images:** the hero photo is lazy-loaded and has a green-gradient
   background plus a local SVG fallback, so the page still looks right with no
   internet.
-- `About` and `Help` in the navbar currently point to `about.html` /
-  `help.html`. Change the `href` to `#` if you would rather not have dead links.
+
 
 ## 7. Safety
 
