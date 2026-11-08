@@ -27,7 +27,6 @@ crop-disease-identifier/
 ```
 
 ---
-
 ## 2. Run it locally
 
 The pages use **ES modules**, and browsers block modules opened straight from a
